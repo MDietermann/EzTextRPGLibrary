@@ -1,0 +1,12 @@
+/mnt/storage/projects/LibDev2/TextRpgLib/bin/Debug/net9.0/TextRpgLib.deps.json
+/mnt/storage/projects/LibDev2/TextRpgLib/bin/Debug/net9.0/TextRpgLib.dll
+/mnt/storage/projects/LibDev2/TextRpgLib/bin/Debug/net9.0/TextRpgLib.pdb
+/mnt/storage/projects/LibDev2/TextRpgLib/obj/Debug/net9.0/TextRpgLib.csproj.AssemblyReference.cache
+/mnt/storage/projects/LibDev2/TextRpgLib/obj/Debug/net9.0/TextRpgLib.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/storage/projects/LibDev2/TextRpgLib/obj/Debug/net9.0/TextRpgLib.AssemblyInfoInputs.cache
+/mnt/storage/projects/LibDev2/TextRpgLib/obj/Debug/net9.0/TextRpgLib.AssemblyInfo.cs
+/mnt/storage/projects/LibDev2/TextRpgLib/obj/Debug/net9.0/TextRpgLib.csproj.CoreCompileInputs.cache
+/mnt/storage/projects/LibDev2/TextRpgLib/obj/Debug/net9.0/TextRpgLib.dll
+/mnt/storage/projects/LibDev2/TextRpgLib/obj/Debug/net9.0/refint/TextRpgLib.dll
+/mnt/storage/projects/LibDev2/TextRpgLib/obj/Debug/net9.0/TextRpgLib.pdb
+/mnt/storage/projects/LibDev2/TextRpgLib/obj/Debug/net9.0/ref/TextRpgLib.dll

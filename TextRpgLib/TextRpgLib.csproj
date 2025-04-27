@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="YamlDotNet" Version="16.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="addons\debug_editor_tools\" />
+      <Folder Include="addons\localization_module\" />
+      <Folder Include="addons\scripting_logic_hooks\" />
+      <Folder Include="content_modules\character_module\enemy\" />
+      <Folder Include="content_modules\character_module\npc\" />
+      <Folder Include="content_modules\combat_module\" />
+      <Folder Include="content_modules\enemy_module\" />
+      <Folder Include="content_modules\inventory_module\entity_inventory\" />
+      <Folder Include="content_modules\inventory_module\shop_inventory\" />
+      <Folder Include="content_modules\scene_module\" />
+      <Folder Include="content_modules\story_module\" />
+      <Folder Include="core_modules\game_engine_core\command_parser\" />
+      <Folder Include="core_modules\game_engine_core\game_loop\" />
+      <Folder Include="core_modules\game_engine_core\game_state_manager\" />
+      <Folder Include="event_modules\dialogue_module\" />
+      <Folder Include="event_modules\event_module\" />
+      <Folder Include="persistence_modules\game_state_module\" />
+      <Folder Include="persistence_modules\save_load_module\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include=".yaml-templates\potion-template.yaml" />
+    </ItemGroup>
+
+</Project>

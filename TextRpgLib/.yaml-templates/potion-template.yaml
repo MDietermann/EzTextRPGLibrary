@@ -1,0 +1,20 @@
+prefix: template-potion
+data:
+TYPE_potion_SIZE:
+  id: TYPE_potion_SIZE
+  name: ""
+  description: ""
+  type: usable
+  value: 0
+  weight: 0.0
+  stackSize: 0
+  tags:
+    - potion
+  isUsable: true
+  effects:
+    - name: ""
+      duration: 0.0
+      targetType: [ self, target. group ]
+      description: ""
+      value: 0
+      effectType: [ heal, damage, buff, debuff ]

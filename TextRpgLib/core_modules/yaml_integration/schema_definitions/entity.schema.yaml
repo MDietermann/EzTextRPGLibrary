@@ -1,0 +1,68 @@
+type: object
+required:
+  - id
+  - name
+  - race
+  - primaryStats
+  - inventory
+properties:
+  id:
+    type: string
+  name:
+    type: string
+  race:
+    type: object
+    properties:
+      name:
+        type: string
+      description:
+        type: string
+  primaryStats:
+    type: object
+    properties:
+      maxHealth:
+        type: integer
+      maxStamina:
+        type: integer
+      maxMana:
+        type: integer
+      currentHealth:
+        type: float
+      currentStamina:
+        type: float
+      currentMana:
+        type: float
+  secondaryStats:
+    type: object
+    properties:
+      strength:
+        type: integer
+      dexterity:
+        type: integer
+      constitution:
+        type: integer
+      intelligence:
+        type: integer
+      wisdom:
+        type: integer
+      charisma:
+        type: integer
+      luck:
+        type: integer
+  isKillable:
+    type: boolean
+  inventory:
+    type: object
+    properties:
+      usables:
+        type: array
+      weapons:
+        type: array
+      armors:
+        type: array
+      accessories:
+        type: array
+      keyItems:
+        type: array
+      currencies:
+        type: array

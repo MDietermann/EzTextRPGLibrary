@@ -1,0 +1,15 @@
+/mnt/storage/projects/LibDev2/ItemLib/bin/Debug/net9.0/ItemLib.deps.json
+/mnt/storage/projects/LibDev2/ItemLib/bin/Debug/net9.0/ItemLib.dll
+/mnt/storage/projects/LibDev2/ItemLib/bin/Debug/net9.0/ItemLib.pdb
+/mnt/storage/projects/LibDev2/ItemLib/obj/Debug/net9.0/ItemLib.csproj.AssemblyReference.cache
+/mnt/storage/projects/LibDev2/ItemLib/obj/Debug/net9.0/ItemLib.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/storage/projects/LibDev2/ItemLib/obj/Debug/net9.0/ItemLib.AssemblyInfoInputs.cache
+/mnt/storage/projects/LibDev2/ItemLib/obj/Debug/net9.0/ItemLib.AssemblyInfo.cs
+/mnt/storage/projects/LibDev2/ItemLib/obj/Debug/net9.0/ItemLib.csproj.CoreCompileInputs.cache
+/mnt/storage/projects/LibDev2/ItemLib/obj/Debug/net9.0/ItemLib.dll
+/mnt/storage/projects/LibDev2/ItemLib/obj/Debug/net9.0/refint/ItemLib.dll
+/mnt/storage/projects/LibDev2/ItemLib/obj/Debug/net9.0/ItemLib.pdb
+/mnt/storage/projects/LibDev2/ItemLib/obj/Debug/net9.0/ref/ItemLib.dll
+/mnt/storage/projects/LibDev2/ItemLib/bin/Debug/net9.0/YamlParser.dll
+/mnt/storage/projects/LibDev2/ItemLib/bin/Debug/net9.0/YamlParser.pdb
+/mnt/storage/projects/LibDev2/ItemLib/obj/Debug/net9.0/ItemLib.csproj.Up2Date

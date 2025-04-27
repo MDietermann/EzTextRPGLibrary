@@ -1,0 +1,58 @@
+type: object
+required:
+  - id
+  - name
+  - description
+  - type
+properties:
+  id:
+    type: string
+  name:
+    type: string
+  description:
+    type: string
+  type:
+    type: string
+    enum: [equipment, usable, key, currency]
+  value:
+    type: integer
+  weight:
+    type: float
+  stackSize:
+    type: integer
+  tags:
+    type: array
+  isUsable:
+    type: boolean
+  equipmentSlot:
+    type: string
+    enum: [head, chest, legs, hands, feet, weapon, offhand, amulet, ring, necklace]
+  damage:
+    type: object
+    properties:
+      baseDamage:
+        type: integer
+      criticalMultiplier:
+        type: float
+      criticalChance:
+        type: float
+      damageType:
+        type: string
+  effects:
+    type: object
+    properties:
+      name:
+        type: string  
+      duration:
+        type: float
+      targetType:
+        type: string
+        enum: [self, target. group]
+      description:
+        type: string
+      value:
+        type: integer
+      effectType:
+        type: string
+        enum: [heal, regenerate, damage, buff, debuff]
+  
