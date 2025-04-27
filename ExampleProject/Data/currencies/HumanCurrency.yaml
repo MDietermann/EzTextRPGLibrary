@@ -1,0 +1,23 @@
+- id: "currency_gold_coin"
+  name: "Gold Coin"
+  description: "The most widely accepted currency in the realm."
+  type: currency
+  value: 10
+  weight: 0.01
+  stackSize: 999
+  tags:
+    - coin
+    - currency
+    - gold
+
+- id: "currency_silver_coin"
+  name: "Silver Coin"
+  description: "Common currency used for smaller transactions."
+  type: currency
+  value: 1
+  weight: 0.01
+  stackSize: 999
+  tags:
+    - coin
+    - currency
+    - silver

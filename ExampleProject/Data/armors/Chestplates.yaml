@@ -1,0 +1,10 @@
+- id: armor_leather
+  name: Leather Armor
+  description: Light protective gear.
+  type: equipment
+  value: 20
+  weight: 4.0
+  stackSize: 1
+  tags: [armor, light]
+  equipmentSlot: chest
+  defense: 5

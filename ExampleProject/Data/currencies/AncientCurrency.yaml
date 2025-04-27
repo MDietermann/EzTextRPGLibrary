@@ -1,0 +1,11 @@
+- id: "currency_crystal_shard"
+  name: "Crystal Shard"
+  description: "Magical shards used in ancient trade or enchantments."
+  type: currency
+  value: 5
+  weight: 0.2
+  stackSize: 50
+  tags:
+    - currency
+    - crystal
+    - magic

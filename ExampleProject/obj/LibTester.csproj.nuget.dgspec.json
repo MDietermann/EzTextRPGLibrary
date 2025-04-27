@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/storage/projects/LibDev2/LibTester/LibTester.csproj": {}
+  },
+  "projects": {
+    "/mnt/storage/projects/LibDev2/ItemLib/ItemLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/storage/projects/LibDev2/ItemLib/ItemLib.csproj",
+        "projectName": "ItemLib",
+        "projectPath": "/mnt/storage/projects/LibDev2/ItemLib/ItemLib.csproj",
+        "packagesPath": "/home/marvin/.nuget/packages/",
+        "outputPath": "/mnt/storage/projects/LibDev2/ItemLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marvin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/home/marvin/.dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[16.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/marvin/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/storage/projects/LibDev2/LibTester/LibTester.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/storage/projects/LibDev2/LibTester/LibTester.csproj",
+        "projectName": "LibTester",
+        "projectPath": "/mnt/storage/projects/LibDev2/LibTester/LibTester.csproj",
+        "packagesPath": "/home/marvin/.nuget/packages/",
+        "outputPath": "/mnt/storage/projects/LibDev2/LibTester/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marvin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/home/marvin/.dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/mnt/storage/projects/LibDev2/ItemLib/ItemLib.csproj": {
+                "projectPath": "/mnt/storage/projects/LibDev2/ItemLib/ItemLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/marvin/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

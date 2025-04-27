@@ -1,0 +1,14 @@
+- id: sword_iron
+  name: Iron Sword
+  description: A basic steel sword.
+  type: equipment
+  value: 30
+  weight: 2.5
+  stackSize: 1
+  tags: [sharp, weapon]
+  equipmentSlot: weapon
+  damage:
+    baseDamage: 10
+    criticalMultiplier: 1.5
+    criticalChance: 0.1
+    damageType: slashing

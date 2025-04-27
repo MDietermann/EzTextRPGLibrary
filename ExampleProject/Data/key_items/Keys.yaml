@@ -1,0 +1,11 @@
+- id: key_silver_gate
+  name: Silver Gate Key
+  description: A finely crafted silver key that unlocks the gate to the northern tower.
+  type: key
+  value: 0
+  weight: 0.1
+  stackSize: 1
+  tags:
+    - key
+    - silver
+    - gate

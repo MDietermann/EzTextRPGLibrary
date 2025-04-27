@@ -1,0 +1,250 @@
+# Health Potions
+# Instant 
+- id: potion_health_weak_instant
+  name: "Weak Health Potion"
+  description: "Restores a small amount of health."
+  type: usable
+  value: 10
+  weight: 0.1
+  stackSize: 5
+  tags:
+    - healing
+    - potion
+  isUsable: true
+  effects:
+    - name: "Instant Heal"
+      duration: 0.0
+      targetType: self
+      description: "Instantly heals health."
+      value: 12
+      effectType: heal
+      
+- id: potion_health_medium_instant
+  name: "Health Potion"
+  description: "Restores a moderate amount of health."
+  type: usable
+  value: 35
+  weight: 0.1
+  stackSize: 5
+  tags:
+    - healing
+    - potion
+  isUsable: true
+  effects:
+    - name: "Instant Heal"
+      duration: 0.0
+      targetType: self
+      description: "Instantly heals health."
+      value: 25
+      effectType: heal
+      
+- id: potion_health_strong_instant
+  name: "Strong Health Potion"
+  description: "Restores a large amount of health."
+  type: usable
+  value: 70
+  weight: 0.1
+  stackSize: 5
+  tags:
+    - healing
+    - potion
+  isUsable: true
+  effects:
+    - name: "Instant Heal"
+      duration: 0.0
+      targetType: self
+      description: "Instantly heals health."
+      value: 50
+      effectType: heal
+      
+# Regenerate
+- id: potion_health_weak_regenerate
+  name: "Weak Health Regeneration Potion"
+  description: "Restores a small amount of health over time."
+  type: usable
+  value: 10
+  weight: 0.1
+  stackSize: 5
+  tags:
+    - healing
+    - potion
+  isUsable: true
+  effects:
+    - name: "Instant Heal"
+      duration: 0.0
+      targetType: self
+      description: "Instantly heals health."
+      value: 12
+      effectType: heal
+
+- id: potion_health_medium_regenerate
+  name: "Health Potion"
+  description: "Restores a moderate amount of health."
+  type: usable
+  value: 35
+  weight: 0.1
+  stackSize: 5
+  tags:
+    - healing
+    - potion
+  isUsable: true
+  effects:
+    - name: "Instant Heal"
+      duration: 0.0
+      targetType: self
+      description: "Instantly heals health."
+      value: 25
+      effectType: heal
+
+- id: potion_health_strong_regenerate
+  name: "Strong Health Potion"
+  description: "Restores a large amount of health."
+  type: usable
+  value: 70
+  weight: 0.1
+  stackSize: 5
+  tags:
+    - healing
+    - potion
+  isUsable: true
+  effects:
+    - name: "Instant Heal"
+      duration: 0.0
+      targetType: self
+      description: "Instantly heals health."
+      value: 50
+      effectType: heal
+
+# Buff
+
+# Debuff
+      
+# Stamina Potions
+# Instant 
+- id: potion_stamina_weak_instant
+  name: "Weak Stamina Potion"
+  description: "Restores a small amount of stamina."
+  type: usable
+  value: 8
+  weight: 0.1
+  stackSize: 5
+  tags:
+    - stamina
+    - potion
+  isUsable: true
+  effects:
+    - name: "Stamina Boost"
+      duration: 0.0
+      targetType: self
+      description: "Restores stamina for physical actions."
+      value: 12
+      effectType: heal
+
+- id: potion_stamina_medium_instant
+  name: "Stamina Potion"
+  description: "Restores a moderate amount of stamina."
+  type: usable
+  value: 35
+  weight: 0.1
+  stackSize: 5
+  tags:
+    - stamina
+    - potion
+  isUsable: true
+  effects:
+    - name: "Stamina Boost"
+      duration: 0.0
+      targetType: self
+      description: "Restores stamina for physical actions."
+      value: 25
+      effectType: heal
+
+- id: potion_stamina_large_instant
+  name: "Strong Stamina Potion"
+  description: "Restores a large amount of stamina."
+  type: usable
+  value: 70
+  weight: 0.1
+  stackSize: 5
+  tags:
+    - stamina
+    - potion
+  isUsable: true
+  effects:
+    - name: "Stamina Boost"
+      duration: 0.0
+      targetType: self
+      description: "Restores stamina for physical actions."
+      value: 50
+      effectType: heal
+      
+# Regenerate
+
+# Buff
+
+# Debuff
+
+# Mana Potions
+# Instant 
+- id: potion_mana_small_instant
+  name: "Weak Mana Potion"
+  description: "Restores a small amount of mana."
+  type: usable
+  value: 12
+  weight: 0.1
+  stackSize: 5
+  tags:
+    - mana
+    - potion
+  isUsable: true
+  effects:
+    - name: "Mana Surge"
+      duration: 0.0
+      targetType: self
+      description: "Replenishes magical energy."
+      value: 12
+      effectType: heal
+
+- id: potion_mana_medium_instant
+  name: "Small Mana Potion"
+  description: "Restores a small amount of mana."
+  type: usable
+  value: 35
+  weight: 0.1
+  stackSize: 5
+  tags:
+    - mana
+    - potion
+  isUsable: true
+  effects:
+    - name: "Mana Surge"
+      duration: 0.0
+      targetType: self
+      description: "Replenishes magical energy."
+      value: 25
+      effectType: heal
+
+- id: potion_mana_large_instant
+  name: "Strong Mana Potion"
+  description: "Restores a large amount of Mana."
+  type: usable
+  value: 70
+  weight: 0.1
+  stackSize: 5
+  tags:
+    - mana
+    - potion
+  isUsable: true
+  effects:
+    - name: "Mana Surge"
+      duration: 0.0
+      targetType: self
+      description: "Replenishes magical energy."
+      value: 50
+      effectType: heal
+
+# Regenerate
+
+# Buff
+
+# Debuff

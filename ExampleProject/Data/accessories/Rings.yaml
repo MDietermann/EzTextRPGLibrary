@@ -1,0 +1,16 @@
+- id: ring_health
+  name: Ring of Health
+  description: Restores some health over time.
+  type: equipment
+  value: 100
+  weight: 0.1
+  stackSize: 1
+  tags: [ring, magic]
+  equipmentSlot: ring
+  effects:
+    - name: Health Regen
+      duration: 5.0
+      targetType: self
+      description: Restores 5 HP/sec
+      value: 5
+      effectType: heal
